@@ -12,7 +12,7 @@ def rates_fetcher(url):
 
 def sendMail(msg):
 	sender = 'no-reply@currency.com'
-	receivers = ['im.android.ng@gmail.com']
+	receivers = ['example@example.com']
 	message = "From: Currency <%s>\nTo: Da Boss <%s>\nSubject:%s\n\n%s" % (sender,receivers,msg,msg)
 
 	try:
